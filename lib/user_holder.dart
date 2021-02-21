@@ -14,9 +14,6 @@ class UserHolder {
   }
 
   User getUserByLogin(String login) {
-    //if (login.isEmpty) {
-    //  throw Exception('login is empty');
-    //}
     return users[login];
   }
 
